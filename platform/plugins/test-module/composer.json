@@ -1,0 +1,13 @@
+{
+    "name": "plugins/test-module",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "TestModule\\": "src/"
+        }
+    },
+    "extra": [],
+    "minimum-stability": "dev",
+    "description": "Test HMVC module"
+}
